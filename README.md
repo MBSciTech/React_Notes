@@ -1,4 +1,6 @@
 
+---
+
 ````md
 # 🚀 React JS Notes
 
@@ -177,17 +179,17 @@ const [count, setCount] = useState(0);
 
 ```jsx
 useEffect(() => {
-  // code here
+  // side effects here
 }, [dependencies]);
 ```
 
 ### 🔁 useReducer
 
-For complex state management.
+* For managing more complex state logic.
 
 ### 🌐 useContext
 
-Access context in functional components.
+* Access context in functional components.
 
 ---
 
@@ -223,25 +225,19 @@ axios.get('/api/data')
 
 ## 🔗 External Tools (Optional)
 
-* Embed charts using screenshots or tools like [Mermaid Live Editor](https://mermaid.live/edit)
-* Use tools like [draw.io](https://app.diagrams.net/) or [Excalidraw](https://excalidraw.com/) and include PNGs.
+> For diagrams or charts:
+
+* Use [Excalidraw](https://excalidraw.com/), [Mermaid](https://mermaid.js.org/) or [draw.io](https://draw.io)
+* Save diagrams as PNG and embed using Markdown:
+
+```md
+![Diagram Title](./assets/diagram.png)
+```
 
 ---
 
-### 🏁 End of Notes
+## 🏁 End of Notes
 
 > 🧠 *Now you’re ready to build powerful React apps!*
-> ⭐ Star the repo if you find this helpful!
+> ⭐ Star the repo if you found this helpful!
 
-```
-
----
-
-Would you like:
-
-- 📥 A version with embedded diagrams as **image links**?
-- 💾 Help converting this into a GitHub-ready `README.md` file?
-- 🎨 A light/dark mode design suggestion for your repo?
-
-Let me know!
-```
