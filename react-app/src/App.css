@@ -42,3 +42,14 @@
   background-color: yellow;
   font-weight: bold;
 }
+/* 
+h1{
+  color: blue; 
+  font-size: 20px;
+  transition: font-size 5s;
+}
+
+h1:hover{
+  font-size: 50px;
+}
+ */
