@@ -1,15 +1,24 @@
 import { BrowserRouter,Routes,Route,Link } from "react-router-dom";
-import Home from './Home';
+// import Home from './Home';
 import Contact from "./Contact";
-import Product1 from "../components/Product1";
+import Product1 from "../components/Product1";  
 
 function Main() {
+    var s = {
+        textDecoration: 'none',
+        color : 'white'
+    }
     return(
         <>
-            <BrowserRouter>
-                <Link to='/'>Home</Link>
-                <Link to='/Contact'>Contact us</Link>
-                <Link to='/Products'>Product1</Link>
+           <BrowserRouter>
+            <nav>
+                <ul>
+                    <li><Link style={s} to='/'>Home</Link></li>
+                    <li><Link style={s} to='/Contact'>Contact us</Link></li>
+                    <li><Link style={s} to='/Products'>Products</Link></li>
+                </ul>
+            </nav>
+
                 <Routes>
                     <Route path="/"></Route>
                     <Route path="/Contact" element={<Contact/>}></Route>
