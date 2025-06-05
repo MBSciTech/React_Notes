@@ -15,6 +15,8 @@ function Hstate2(){
     return(
         <>
             <img src= {i} alt='image not found'/>
+            <br/>
+            <br/>
             <button onClick={chgim}>Change image</button>
         </>
     )

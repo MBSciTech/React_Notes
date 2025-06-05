@@ -6,7 +6,9 @@ import './App.css';
 // import Prop1 from './components/Prop1.js'
 // import Product1 from './components/Product1.js';
 // import Main from './pages/Main';
-import Hstate2 from './components/Hstate2';
+// import Hstate2 from './components/Hstate2';
+// import FormState from './components/formState';
+import PState from './components/pState';
 
 function App() {
   return (  
@@ -16,7 +18,9 @@ function App() {
     // <Prop1 />
     // <Product1/>
     // <Main/>
-    <Hstate2/>
+    // <Hstate2/>
+    // <FormState/>
+    <PState/>
   );
 }
 
