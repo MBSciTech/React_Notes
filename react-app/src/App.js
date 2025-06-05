@@ -5,7 +5,8 @@ import './App.css';
 // import Map from './components/Map.js'
 // import Prop1 from './components/Prop1.js'
 // import Product1 from './components/Product1.js';
-import Main from './pages/Main';
+// import Main from './pages/Main';
+import Hstate2 from './components/Hstate2';
 
 function App() {
   return (  
@@ -14,7 +15,8 @@ function App() {
     // <Map />
     // <Prop1 />
     // <Product1/>
-    <Main/>
+    // <Main/>
+    <Hstate2/>
   );
 }
 
