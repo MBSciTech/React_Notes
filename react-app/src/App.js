@@ -8,7 +8,10 @@ import './App.css';
 // import Main from './pages/Main';
 // import Hstate2 from './components/Hstate2';
 // import FormState from './components/formState';
-import PState from './components/pState';
+// import PState from './components/pState';
+// import Hreduce from './components/Hreduce';
+// import Parent from './components/Parent';
+import D1 from './components/D1';
 
 function App() {
   return (  
@@ -20,7 +23,10 @@ function App() {
     // <Main/>
     // <Hstate2/>
     // <FormState/>
-    <PState/>
+    // <PState/>
+    // <Hreduce/>
+    // <Parent/>
+    <D1/>
   );
 }
 
