@@ -11,7 +11,9 @@ import './App.css';
 // import PState from './components/pState';
 // import Hreduce from './components/Hreduce';
 // import Parent from './components/Parent';
-import D1 from './components/D1';
+// import D1 from './components/D1';
+// import HEffect from './components/HEffect';
+import Axiosdemo from './components/Axiosdemo';
 
 function App() {
   return (  
@@ -26,7 +28,9 @@ function App() {
     // <PState/>
     // <Hreduce/>
     // <Parent/>
-    <D1/>
+    // <D1/>
+    // <HEffect/>
+    <Axiosdemo/>
   );
 }
 
