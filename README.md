@@ -236,8 +236,4 @@ axios.get('/api/data')
 
 ---
 
-## 🏁 End of Notes
-
-> 🧠 *Now you’re ready to build powerful React apps!*
-> ⭐ Star the repo if you found this helpful!
 
