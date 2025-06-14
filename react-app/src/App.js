@@ -13,7 +13,9 @@ import './App.css';
 // import Parent from './components/Parent';
 // import D1 from './components/D1';
 // import HEffect from './components/HEffect';
-import Axiosdemo from './components/Axiosdemo';
+// import Axiosdemo from './components/Axiosdemo';
+// import TodoList from './components/TodoList';
+import UserDetails from './components/UserDetails';
 
 function App() {
   return (  
@@ -30,7 +32,9 @@ function App() {
     // <Parent/>
     // <D1/>
     // <HEffect/>
-    <Axiosdemo/>
+    // <Axiosdemo/>
+    // <TodoList/>
+    <UserDetails/>
   );
 }
 
